@@ -1,0 +1,17 @@
+{
+    "window_title_main": "Assistente Avatar 2D",
+    "menu_settings": "Configurações",
+    "window_title_settings": "Configurações do Assistente",
+    "tab_prompt_title": "Prompt do Sistema",
+    "lbl_prompt_instruction": "Prompt de Instrução Padrão (Gemma 4):",
+    "tab_voice_title": "Voz e Idioma",
+    "lbl_voice_style": "Código do Estilo de Voz (Supertônico 3):",
+    "lbl_voice_lang": "Idioma da Voz:",
+    "btn_adapt_lang": "Adaptar Idioma (Traduzir Prompt)",
+    "btn_adapt_lang_waiting": "Traduzindo e Adaptando... Por favor, aguarde",
+    "btn_adapt_lang_failed": "Tradução Falhou. Tente Novamente",
+    "btn_save": "Salvar",
+    "btn_cancel": "Cancelar",
+    "log_maintenance_cleaning": "🧹 [Manutenção]: Limpando histórico de chat...",
+    "log_system_screenshot": "🖥️ [Sistema]: Modo de captura de tela invisível ativado nativamente."
+}
