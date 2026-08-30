@@ -10,6 +10,7 @@ The assistant combines a Live2D animated character with a local language model a
 
 ## 🚀 Features
 
+- **End-to-End On-Device Processing:** Entire speech recognition and language understanding are handled natively by **Gemma-4-E2B-it**, completely eliminating the need for external tools like Whisper and saving significant local processing overhead.
 - **Natural Voice Interaction:** Local audio processing with voice activity detection (VAD).
 - **Animated Live2D Avatar:** Procedural lip-syncing mapped to the TTS audio amplitude, alongside random idle and expressive motions triggered during output generation.
 - **On-Device AI Inference:** Powered by Google's Gemma-4-E2B-it via LiteRT. No external APIs or internet connections are required for core operations.
@@ -42,8 +43,8 @@ You can edit `prompts.json` to refine your assistant's personality or add suppor
 
 ## 🔒 Local Processing & Privacy
 
-Privacy is a core design choice of this project. The following components run **100% locally** on your machine:
-* Language model inference (Gemma)
+Privacy and performance are core design choices of this project. By utilizing **Gemma-4-E2B-it** for native speech recognition and reasoning, the assistant avoids heavy third-party transcription dependencies. The following components run **100% locally** on your machine:
+* Speech recognition and language model inference (Gemma)
 * Text-to-speech generation (Supertonic)
 * Voice Activity Detection (Silero VAD)
 * Screen capture and visual analysis (PyAutoGUI)
@@ -82,7 +83,7 @@ This project performs local AI inference, speech synthesis, and 3D/OpenGL render
 ## 📦 Installation & Setup
 
 ### ⚡ Quick Start (Windows)
-The project includes a automation script to simplify setup on Windows:
+The project includes an automation script to simplify setup on Windows:
 1. Download or clone this repository.
 2. Open the project folder.
 3. Double-click **`start.bat`**.
@@ -95,28 +96,28 @@ If you prefer to configure the environment manually:
 
 1. Clone the repository and navigate to the folder:
    ```bash
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+   git clone [https://github.com/gemma-live2d-assistant/gemma-live2d-assistant.git](https://github.com/gemma-live2d-assistant/gemma-live2d-assistant.git)
+   cd gemma-live2d-assistant
 
     Create and activate a Python virtual environment:
-    code Bash
+    Bash
 
     python -m venv .venv
-    source .venv/bin/activate  # On Linux/macOS
-    .venv\Scripts\activate     # On Windows
+    source .venv/bin/activate   # On Linux/macOS
+    .venv\Scripts\activate      # On Windows
 
     Install the dependencies:
-    code Bash
+    Bash
 
     pip install -r requirements.txt
 
     Run the main script:
-    code Bash
+    Bash
 
     python main.py
 
 📁 Project Structure
-code Text
+Plaintext
 
 .
 ├── main.py              # Application entry point & GUI
