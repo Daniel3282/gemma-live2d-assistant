@@ -1,6 +1,6 @@
 # Interactive Voice Assistant with Live2D
 
-![Live2D Assistant Preview](https://via.placeholder.com/800x400.png?text=Add+a+GIF+or+Screenshot+of+your+Assistant+Here) <!-- Substitua pelo link de um GIF do seu projeto rodando -->
+![Live2D Assistant Preview](https://raw.githubusercontent.com/Daniel3282/gemma-live2d-assistant/main/image.jpg)
 
 An interactive, fully local AI voice assistant featuring an animated Live2D avatar, speech-to-text, multilingual configuration, screen analysis (vision), and local TTS synthesis.
 
